@@ -1,0 +1,91 @@
+body, html {
+    height: 100%;
+    font-family:'Nunito', sans-serif;
+}
+
+header {
+    text-align: center;
+    color: #454343;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block; 
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    padding:12px 14px;
+    color: rgb(81, 77, 77);
+    text-decoration: none;
+    background-color: #cef6b88f;
+    
+}
+
+li a:hover {
+    background-color:#F1E1A6;
+    text-decoration: none; 
+}
+
+
+
+.wp {
+    background-image: url(/HTML/media/home-walpaper.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.content {
+    position:static; /* Position the background text */
+    top: 50; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(245, 183, 58, 0.325); /* Black background with 0.5 opacity */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+
+/* Create two equal columns that float next to each other */
+.column {
+    float: left;
+    width: 100%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+}
+}
+.card {
+    background: rgba(245, 183, 58, 0.485);
+    padding: 20px;
+    margin-top: 86px;
+    
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgba(245, 183, 58, 0.325);
+    margin-top: 20px;
+    color: #454343;
+    position: absolute;
+    width: 100%;
+    bottom: 11px;
+  }
