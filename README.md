@@ -3,7 +3,7 @@
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde HTML, CSS ve Bootstrap ile çalıştığım sitem bulunuyor.
 
 
-![Kodluyoruz](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/odev1/figures/github.png)
+![Kodluyoruz](/HTML/media/webpage.jpg)
 
 
 
